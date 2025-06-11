@@ -48,8 +48,8 @@ whisper-devanagari-transcription/
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/whisper-devanagari-transcription.git
-cd whisper-devanagari-transcription
+git clone [https://github.com/yourusername/whisper-devanagari-transcription.git](https://github.com/TanishaSuthar/Speech-to-text/tree/main)
+cd speech-to-text
 ```
 
 > Or download the ZIP manually and extract it.
