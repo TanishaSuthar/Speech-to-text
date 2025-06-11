@@ -27,9 +27,7 @@ This project uses OpenAI's Whisper model to transcribe speech audio in **English
 ## 📦 Project sturcture
 whisper-devanagari-transcription/
 - stt_app.py                    # Main application code (Gradio UI + transcription)
-- 
 - requirements.txt           # Python dependencies
-- 
 - README.md                  # Project documentation
 
 ---
