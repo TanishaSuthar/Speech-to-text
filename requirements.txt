@@ -1,0 +1,6 @@
+whisper
+gradio
+pydub
+indic-transliteration
+ffmpeg-python
+torch
