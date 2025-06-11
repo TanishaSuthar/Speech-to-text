@@ -1,8 +1,8 @@
-# 🎤 Whisper Speech-to-Text (English + Hindi Devanagari)
+#  Whisper Speech-to-Text (English + Hindi Devanagari)
 
 This project uses OpenAI's Whisper model to transcribe speech audio in **English** and **Hindi**, with Hindi transcriptions outputted in **Devanagari** script instead of Roman or Urdu.
 
-## 🚀 Features
+##  Features
 
 - Transcribes audio recordings or uploads in English and Hindi
 - Converts Romanized Hindi text to proper **देवनागरी** using `indic-transliteration`
@@ -12,7 +12,7 @@ This project uses OpenAI's Whisper model to transcribe speech audio in **English
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 | Technology              | Purpose                              |
 |-------------------------|--------------------------------------|
@@ -24,7 +24,7 @@ This project uses OpenAI's Whisper model to transcribe speech audio in **English
 
 ---
 
-## 📦 Project sturcture
+##  Project sturcture
 whisper-devanagari-transcription/
 - stt_app.py                    # Main application code (Gradio UI + transcription)
 - requirements.txt           # Python dependencies
@@ -33,9 +33,9 @@ whisper-devanagari-transcription/
 ---
 
 
-## ⚙️ Setup and Installation
+## ⚙ Setup and Installation
 
-### ✅ Prerequisites
+###  Prerequisites
 
 - Python 3.8 or higher
 - [FFmpeg](https://ffmpeg.org/download.html)
@@ -43,7 +43,7 @@ whisper-devanagari-transcription/
 
 ---
 
-### 🧰 Step-by-Step Setup
+###  Step-by-Step Setup
 
 #### 1. Clone the Repository
 
@@ -68,7 +68,7 @@ FFmpeg is required by Whisper and Pydub.
   Download from [FFmpeg Downloads](https://ffmpeg.org/download.html) and add to `PATH`.
 ---
 
-#### 5. Run the App
+#### 4. Run the App
 
 ```bash
 python stt_app.py
@@ -78,7 +78,7 @@ Your browser will open with the Gradio interface. Select language (`hi` or `en`)
 
 ---
 
-## 📋 Example Output
+##  Example Output
 
 - **English Audio**:  
   _"Hello, how are you?"_  
@@ -90,7 +90,7 @@ Your browser will open with the Gradio interface. Select language (`hi` or `en`)
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 See [`requirements.txt`](./requirements.txt):
 
@@ -103,7 +103,7 @@ indic-transliteration
 
 ---
 
-## 🧠 Model Used
+##  Model Used
 
 - [`medium`](https://github.com/openai/whisper) Whisper model for better accuracy.
 
